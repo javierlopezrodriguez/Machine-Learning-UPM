@@ -9,7 +9,7 @@ Binary classification problem, the following models were employed: logistic regr
 
 Improvements I would make if I did this project today:
 - SNPs have two alleles, AB is phenotipically the same as BA. In the problem, I would consider 'WM' and 'MW' to be the same class.
-- A more efficient hyperparameter tuning could be performed using Bayesian optimization (for example with the Ax library, see my optimization repository).
+- A more efficient hyperparameter tuning could be performed using Bayesian optimization (for example with the Ax library, see my [optimization repository](https://github.com/javierlopezrodriguez/optimization)).
 - Because it is a very small dataset, if I had the computational power, I would evaluate the models using nested cross validation (using cross validation twice, once on the trainval-test division, and a second time on the train-val division), which would give a more unbiased estimate of the generalization error.
 
 ## Unsupervised:
